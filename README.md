@@ -44,8 +44,6 @@ To perform a comparative study of different clustering algorithms (KMeans, Hiera
 | Hierarchical | T+N+PCA         | 4        | 0.72       | 3589              | 0.57           |
 | MeanShift  | pca               | NA       | 0.67       | 2028              | 0.60           |
 
-> Full result table available in `clustering_results.csv`.
-
 ---
 
 ## Observations
@@ -53,13 +51,6 @@ To perform a comparative study of different clustering algorithms (KMeans, Hiera
 - KMeans performed well with Normalization + PCA.
 - Hierarchical methods were stable across preprocessing.
 - MeanShift automatically chooses clusters, best when exact `k` is unknown.
-
----
-
-## How to Run
-1. Open `Clustering_Assignment.ipynb` in Google Colab
-2. Run all cells
-3. Outputs will be generated including result tables and charts
 
 ---
 
